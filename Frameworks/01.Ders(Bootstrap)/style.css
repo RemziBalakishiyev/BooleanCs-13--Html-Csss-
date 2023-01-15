@@ -1,0 +1,19 @@
+.box {
+  margin-right: 5px;
+  background-color: #457b9d;
+  width: 200px;
+  height: 50px;
+}
+
+.item-1 {
+  background-color: #ffe5d9;
+}
+.item-2 {
+  background-color: #83c5be;
+}
+.item-3 {
+  background-color: #eb5e28;
+}
+.item-4 {
+  background-color: #a4133c;
+}

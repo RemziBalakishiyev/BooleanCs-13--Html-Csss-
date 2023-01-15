@@ -1,0 +1,12 @@
+@mixin flexing($j-content: center, $a-item: center, $direction: row) {
+  display: flex;
+  justify-content: $j-content;
+  align-items: $a-item;
+  flex-direction: $direction;
+}
+
+@mixin absolute-xy($top: 0, $left: 0, $transform: true) {
+  position: absolute;
+  top: $top;
+  left: $left;
+}

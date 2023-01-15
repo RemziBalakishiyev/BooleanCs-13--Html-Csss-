@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Oswald:wght@500&display=swap");
+
+.container,
+.section--contact,
+footer {
+  background-color: #3a86ff;
+  margin: 100px 300px;
+  padding: 50px;
+}
+
+.section--contact {
+  width: 400px;
+  height: 200px;
+}
+
+.container h1 {
+  font-size: 24px;
+  font-family: "Oswald", sans-serif;
+
+  margin: 0;
+}
+/* CTRL + / */
+/* .container p {
+  color: #fff;
+} */
+.about-body {
+  color: #fff;
+  font-size: 13px;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.about-body a,
+.about-body p,
+.about-body h3 {
+  background-color: #1ca981;
+  padding: 10px;
+}
+
+.about-body > a p a {
+  background-color: #1ca981;
+  padding: 10px;
+}
+
+/* .about-body > a,
+p {
+  background-color: #1ca981;
+  padding: 10px;
+} */
+/*General sibling*/
+/* .container ~ section {
+  background-color: #98cb32;
+} */
+
+.container + section {
+  background-color: #98cb32;
+  border-style: groove;
+  border-width: 15px;
+  border-color: rgb(16, 160, 189);
+  border-radius: 57% 44% 35% 35% / 100% 98% 0% 2%;
+}
+
+.btn {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  background-color: #3a86ff;
+  padding: 14px 28px;
+  border-radius: 30px;
+}
+
+.btn--second {
+  font-size: 18px;
+  color: #7949ff;
+  font-family: "Montserrat", sans-serif;
+  background-color: transparent;
+  width: 96px;
+  height: 48px;
+  padding: 0px 16px;
+  text-align: center;
+  box-sizing: border-box;
+
+  border: 1px solid #7949ff;
+  border-radius: 5px;
+
+  cursor: pointer;
+}
